@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  .highlight {
+    color: #ffdd57;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2575fc;
+    border-bottom: 2px solid #2575fc;
+    padding-bottom: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    margin: 0;
+    color: #6a11cb;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #2575fc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dark Mode Toggle */
+  .dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  .dark-mode header {
+    background: linear-gradient(135deg, #333, #555);
+  }
+  
+  .dark-mode section {
+    background-color: #444;
+    color: #f4f4f4;
+  }
+  
+  .dark-mode h2 {
+    color: #ffdd57;
+    border-bottom-color: #ffdd57;
+  }
+  
+  .dark-mode .project h3 {
+    color: #ffdd57;
+  }
+  
+  .dark-mode footer {
+    background-color: #222;
+  }
